@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lekce3", "Lekce3", "{409677
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3_Ukol1", "Lekce3\L3_Ukol1\L3_Ukol1.csproj", "{6280DE3B-C527-4225-BC9C-1593A8DB97C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L3_Ukol2", "Lekce3\L3_Ukol2\L3_Ukol2.csproj", "{C58E5C0E-EBA0-4BBC-AC4C-178610D36361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{6280DE3B-C527-4225-BC9C-1593A8DB97C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6280DE3B-C527-4225-BC9C-1593A8DB97C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6280DE3B-C527-4225-BC9C-1593A8DB97C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58E5C0E-EBA0-4BBC-AC4C-178610D36361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58E5C0E-EBA0-4BBC-AC4C-178610D36361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58E5C0E-EBA0-4BBC-AC4C-178610D36361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58E5C0E-EBA0-4BBC-AC4C-178610D36361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6280DE3B-C527-4225-BC9C-1593A8DB97C5} = {409677B9-C16F-414A-81EE-CC6CF897710C}
+		{C58E5C0E-EBA0-4BBC-AC4C-178610D36361} = {409677B9-C16F-414A-81EE-CC6CF897710C}
 	EndGlobalSection
 EndGlobal
