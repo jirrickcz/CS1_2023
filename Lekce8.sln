@@ -9,13 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L8_Odpocitavac", "Lekce8\L8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L8_FotoAlbum", "Lekce8\L8_FotoAlbum\L8_FotoAlbum.csproj", "{5A27336A-846D-48D3-8661-680AC4836611}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L8_Kola", "Lekce8\L8_Kola\L8_Kola.csproj", "{A51CFCCC-68A9-4ECC-A85C-3F860660877E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7FDF906B-E3BD-4BB9-85F4-6D5EBB94256A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,9 +25,17 @@ Global
 		{5A27336A-846D-48D3-8661-680AC4836611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A27336A-846D-48D3-8661-680AC4836611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A27336A-846D-48D3-8661-680AC4836611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51CFCCC-68A9-4ECC-A85C-3F860660877E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51CFCCC-68A9-4ECC-A85C-3F860660877E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51CFCCC-68A9-4ECC-A85C-3F860660877E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51CFCCC-68A9-4ECC-A85C-3F860660877E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7FDF906B-E3BD-4BB9-85F4-6D5EBB94256A} = {ACD74CA4-C9FC-4104-9AD9-5CA8DA8D5AD1}
 		{5A27336A-846D-48D3-8661-680AC4836611} = {ACD74CA4-C9FC-4104-9AD9-5CA8DA8D5AD1}
+		{A51CFCCC-68A9-4ECC-A85C-3F860660877E} = {ACD74CA4-C9FC-4104-9AD9-5CA8DA8D5AD1}
 	EndGlobalSection
 EndGlobal
