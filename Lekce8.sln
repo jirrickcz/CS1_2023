@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lekce8", "Lekce8", "{ACD74CA4-C9FC-4104-9AD9-5CA8DA8D5AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L8_Odpocitavac", "Lekce8\L8_Odpocitavac\L8_Odpocitavac.csproj", "{7FDF906B-E3BD-4BB9-85F4-6D5EBB94256A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L8_FotoAlbum", "Lekce8\L8_FotoAlbum\L8_FotoAlbum.csproj", "{5A27336A-846D-48D3-8661-680AC4836611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FDF906B-E3BD-4BB9-85F4-6D5EBB94256A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDF906B-E3BD-4BB9-85F4-6D5EBB94256A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDF906B-E3BD-4BB9-85F4-6D5EBB94256A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDF906B-E3BD-4BB9-85F4-6D5EBB94256A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A27336A-846D-48D3-8661-680AC4836611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A27336A-846D-48D3-8661-680AC4836611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A27336A-846D-48D3-8661-680AC4836611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A27336A-846D-48D3-8661-680AC4836611}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FDF906B-E3BD-4BB9-85F4-6D5EBB94256A} = {ACD74CA4-C9FC-4104-9AD9-5CA8DA8D5AD1}
+		{5A27336A-846D-48D3-8661-680AC4836611} = {ACD74CA4-C9FC-4104-9AD9-5CA8DA8D5AD1}
+	EndGlobalSection
+EndGlobal
