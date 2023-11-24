@@ -2,7 +2,32 @@
 
 public class Program
 {
-	public static void Main()
+public static void Main()
+	{
+        Kalkulacka2 kalkulacka = new Kalkulacka2();
+
+		while (true)
+		{
+            double cislo = NactiCislo("");
+
+			Console.WriteLine("Zadejte operator (+, -, *, /, ^, =): Pro ukonceni programu zadejte X.");
+			string operatorZnak = Console.ReadLine();
+            if (operatorZnak.ToUpper() == "X")
+			{
+				Console.WriteLine("Konec programu.");
+				return;
+			}
+			while (!(operatorZnak == "+" || operatorZnak == "-" || operatorZnak == "*" || operatorZnak == "/" || operatorZnak == "^" || operatorZnak == "="))
+			{
+				Console.WriteLine("Neplatny operator. Zadejte znovu.");
+				operatorZnak = Console.ReadLine();
+			}
+
+			Console.WriteLine($"Nový výsledek: {kalkulacka.ProvedOperaci(cislo, operatorZnak)}");
+		}
+	}
+
+	public static void MainOld()
 	{
         double prvniCislo = NactiCislo("prvni");
         Kalkulacka kalkulacka = new Kalkulacka(prvniCislo);
